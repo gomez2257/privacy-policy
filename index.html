@@ -1,56 +1,137 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Política de Privacidad - JG Neon Watchface</title>
+  <meta name="robots" content="noindex,follow" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
+    :root{
+      --accent:#004080;
+      --bg:#f6f8fb;
+      --text:#333;
+      --card:#ffffff;
+      --muted:#6b7280;
     }
-    h1, h2 {
-      color: #004080;
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0}
+    body{
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Segoe UI Emoji";
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.65;
     }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      background: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    .container{
+      max-width: 920px;
+      margin: 48px auto;
+      padding: 0 20px;
     }
-    p {
-      text-align: justify;
+    .card{
+      background:var(--card);
+      border-radius:16px;
+      box-shadow: 0 10px 24px rgba(0,0,0,.08);
+      padding:32px 28px;
+    }
+    h1{
+      color:var(--accent);
+      font-size: 2rem;
+      margin: 0 0 10px;
+      line-height:1.25;
+    }
+    .subtitle{
+      color:var(--muted);
+      margin:0 0 22px;
+      font-size:.98rem;
+    }
+    h2{
+      color:var(--accent);
+      margin: 28px 0 10px;
+      font-size:1.25rem;
+    }
+    p{ text-align: justify; margin: 10px 0; }
+    ul{ margin: 8px 0 16px 18px; }
+    a{ color: var(--accent); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    .footer{
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: .92rem;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Política de Privacidad</h1>
-    <p>Esta política de privacidad se aplica a la aplicación <b>JG Neon Watchface</b> (en adelante, la "Aplicación") desarrollada por <b>JG Designs</b> como servicio gratuito.</p>
+  <main class="container">
+    <section class="card">
+      <h1>Política de Privacidad</h1>
+      <p class="subtitle"><strong>JG Neon Watchface</strong> — Desarrollado por <strong>JG Designs</strong></p>
 
-    <h2>Recopilación y uso de información</h2>
-    <p>La Aplicación puede recopilar información técnica como la dirección IP, páginas visitadas dentro de la app y el sistema operativo de su dispositivo. <b>No recopilamos información de ubicación precisa.</b></p>
+      <p>
+        Esta Política de Privacidad se aplica a la aplicación <strong>JG Neon Watchface</strong>
+        (en adelante, la “Aplicación”), desarrollada por <strong>JG Designs</strong> como servicio gratuito.
+        Al utilizar la Aplicación, usted acepta las prácticas descritas a continuación.
+      </p>
 
-    <h2>Acceso de terceros</h2>
-    <p>Podemos usar servicios externos como Google Play Services que recopilan información de manera anónima para mejorar la experiencia.</p>
+      <h2>Recopilación y uso de información</h2>
+      <p>
+        La Aplicación puede recopilar información técnica no identificable personalmente para fines de
+        diagnóstico y mejora, por ejemplo:
+      </p>
+      <ul>
+        <li>Dirección IP pública de su dispositivo al momento de la conexión.</li>
+        <li>Páginas o pantallas visitadas dentro de la Aplicación, fecha/hora y duración aproximada.</li>
+        <li>Sistema operativo y versión del dispositivo.</li>
+      </ul>
+      <p><strong>No</strong> recopilamos información precisa de la ubicación del dispositivo.</p>
 
-    <h2>Niños</h2>
-    <p>La Aplicación no está dirigida a menores de 13 años.</p>
+      <h2>Acceso de terceros</h2>
+      <p>
+        Podríamos integrar servicios externos (por ejemplo, servicios de Google Play) que, de forma
+        anónima y agregada, nos ayudan a mejorar la estabilidad y experiencia de la Aplicación.
+        Consulte sus políticas para más detalles:
+        <a href="https://www.google.com/policies/privacy/" target="_blank" rel="noopener noreferrer">
+          Política de Privacidad de Google
+        </a>.
+      </p>
 
-    <h2>Seguridad</h2>
-    <p>Adoptamos medidas razonables para proteger la información recopilada. No vendemos ni compartimos datos personales sin consentimiento.</p>
+      <h2>Derechos de exclusión voluntaria</h2>
+      <p>
+        Puede dejar de compartir información con la Aplicación desinstalándola en cualquier momento
+        mediante los procesos estándar de su dispositivo o la tienda correspondiente.
+      </p>
 
-    <h2>Cambios</h2>
-    <p>Podemos actualizar esta política periódicamente. La fecha de la última actualización se indica al final del documento.</p>
+      <h2>Política de retención de datos</h2>
+      <p>
+        Conservaremos los datos técnicos durante el tiempo necesario para los fines descritos y por un
+        periodo razonable adicional. Puede solicitar su eliminación escribiendo a
+        <a href="mailto:jagy2257@gmail.com">jagy2257@gmail.com</a>.
+      </p>
 
-    <h2>Contacto</h2>
-    <p>Si tiene preguntas o solicitudes relacionadas con la privacidad, escríbanos a: <a href="mailto:jagy2257@gmail.com">jagy2257@gmail.com</a></p>
+      <h2>Niños</h2>
+      <p>
+        La Aplicación no está dirigida a menores de 13 años ni recopilamos deliberadamente información
+        de menores. Si cree que un menor nos proporcionó datos, contáctenos para eliminarlos.
+      </p>
 
-    <p><i>Última actualización: 20 de agosto de 2025</i></p>
-  </div>
+      <h2>Seguridad</h2>
+      <p>
+        Implementamos medidas técnicas y organizativas razonables para proteger la información que
+        tratamos. No vendemos ni compartimos datos personales con terceros sin su consentimiento.
+      </p>
+
+      <h2>Cambios a esta política</h2>
+      <p>
+        Podemos actualizar esta Política periódicamente. Publicaremos la versión vigente en esta misma
+        URL. Le recomendamos revisarla ocasionalmente para estar al tanto de cualquier cambio.
+      </p>
+
+      <h2>Contacto</h2>
+      <p>
+        Si tiene preguntas o solicitudes relacionadas con la privacidad, puede escribirnos a:
+        <a href="mailto:jagy2257@gmail.com">jagy2257@gmail.com</a>.
+      </p>
+
+      <p class="footer"><em>Última actualización: 20 de agosto de 2025</em></p>
+    </section>
+  </main>
 </body>
 </html>
